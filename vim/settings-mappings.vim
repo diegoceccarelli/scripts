@@ -9,6 +9,8 @@ nnoremap <leader>x :x<CR>
 nnoremap <leader>e :e 
 nnoremap <leader>g :!git grep 
 nnoremap <leader>r :%s/
+nnoremap <leader>l :!./
+nnoremap <leader>m :make %<CR>
 
 " paste
 set pastetoggle=<F2>

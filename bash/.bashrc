@@ -111,3 +111,6 @@ fi
 
 # overwrite terminal string
 PS1="\e[1;33m\u\e[m:\e[1;35m\w\e[m\$ "
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"

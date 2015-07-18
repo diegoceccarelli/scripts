@@ -4,6 +4,8 @@ source ~/scripts/vim/settings-base.vim
 source ~/scripts/vim/settings-syntax.vim
 " keyboard shortcuts
 source ~/scripts/vim/settings-mappings.vim
+" syntastic settings
+source ~/scripts/vim/settings-syntastic.vim
 
 " load bundles with pathogen
 execute pathogen#infect()

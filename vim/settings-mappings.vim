@@ -30,10 +30,10 @@ cnoremap <C-n> <Down>
 cnoremap <expr> %% getcmdtype() == ':' ? expand('%:h')./ : %%
 
 " temporarily remove arrow keys, to learn using hjkl
-noremap <Up> <Nop>
-noremap <Right> <Nop>
-noremap <Down> <Nop>
-noremap <Left> <Nop>
+" noremap <Up> <Nop>
+" noremap <Right> <Nop>
+" noremap <Down> <Nop>
+" noremap <Left> <Nop>
 
 " remove highlighting
 nnoremap <silent> <C-l> :<C-u>nohlsearch<CR><C-l>

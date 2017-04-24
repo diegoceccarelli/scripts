@@ -44,8 +44,12 @@ Plugin 'L9'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
-colorscheme darkblue
+set t_Co=256
 colorscheme gruvbox
+set colorcolumn=81
+" execute "set colorcolumn=" . join(range(80,999), ',')
+hi ColorColumn ctermbg=7
+hi NonText ctermbg=0 guibg=#505050
 
 " set ctags
 set tags+=./.tags;/,./tags;/

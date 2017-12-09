@@ -113,6 +113,11 @@ if ! shopt -oq posix; then
   fi
 fi
 
+# exercism bash completion
+if [ -f ~/.config/exercism/exercism_completion.bash ]; then
+  . ~/.config/exercism/exercism_completion.bash
+fi
+
 TERM=xterm-256color
 # directories: bold orange
 LS_COLORS=$LS_COLORS:'di=91:ow=1;31:tw=1;31:'
